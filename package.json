@@ -16,7 +16,7 @@
     "@vitejs/plugin-react": "^3.0.1",
     "eslint": "^8.8.0",
     "eslint-config-airbnb": "^19.0.4",
-    "rollup-plugin-webpack-stats": "^0.0.2",
+    "rollup-plugin-webpack-stats": "^0.0.4",
     "vite": "^4.0.4"
   },
   "dependencies": {
