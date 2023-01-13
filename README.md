@@ -47,7 +47,7 @@ export default defineConfig((env) => ({
 }));
 ```
 
-## Configuree @relative-ci/agent GitHub action
+## Configure @relative-ci/agent GitHub action
 
 ```yaml
 # .github/workflow/build.yml
