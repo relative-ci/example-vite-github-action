@@ -1,12 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import useSWR from 'swr';
-import { Alert, Divider, Spin, Typography } from 'antd';
-import ReactMarkdown from 'react-markdown';
+import { Alert, Divider, Spin } from 'antd';
 
 import { Repo } from './repo';
+import { Markdown } from './markdown';
 import { fetcher } from '../utils';
-
-const { Title } = Typography;
 
 const Meta = ({ owner, repo }) => {
   const { data, error } = useSWR(`/repos/${owner}/${repo}`, fetcher);
@@ -46,9 +44,7 @@ const ReadMe = ({ owner, repo }) => {
     return <Spin />;
   }
 
-  return (
-    <ReactMarkdown>{markdown}</ReactMarkdown>
-  );
+  return <Markdown source={markdown} />;
 }
 
 export const RepoDetails = (props) => {
