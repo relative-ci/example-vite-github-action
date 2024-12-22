@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import webpackStatsPlugin from 'rollup-plugin-webpack-stats';
-import { rollupStats } from 'rollup-plugin-stats';
+import rollupStats from 'rollup-plugin-stats';
 
 export default defineConfig((env) => ({
   build: {
