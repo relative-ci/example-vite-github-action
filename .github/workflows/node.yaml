@@ -11,12 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version-file: '.nvmrc'
 
-      # Install dependencies
-      - run: npm ci
+      - name: Setup node & npm
+        uses: relative-ci/.github/actions/setup-node-npm@main
 
       # Build and output webpack stats to dist/webpack-stats.json
       - run: npm run build
