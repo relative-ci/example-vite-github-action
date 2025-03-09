@@ -1,7 +1,7 @@
 {
-  "name": "example-vite",
+  "name": "example-vite-github-action",
   "version": "1.0.1",
-  "description": "Vite example",
+  "description": "@relative-ci/agent example for Vite and Github action",
   "main": "src/index.js",
   "scripts": {
     "build": "vite build",
