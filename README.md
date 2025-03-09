@@ -47,6 +47,8 @@ export default defineConfig((env) => ({
 }));
 ```
 
+[Read more](https://relative-ci.com/documentation/guides/bundle-stats/vite)
+
 ## Configure @relative-ci/agent GitHub action
 
 ```yaml
