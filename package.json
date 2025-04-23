@@ -19,7 +19,7 @@
     "rollup-plugin-bundle-stats": "^4.18.0-beta.3",
     "rollup-plugin-stats": "1.3.5",
     "rollup-plugin-webpack-stats": "2.0.4",
-    "vite": "^6.0.0"
+    "rolldown-vite": "^6.0.0"
   },
   "dependencies": {
     "antd": "^4.18.6",

@@ -11,11 +11,6 @@ export default defineConfig((env) => ({
         assetFileNames: 'assets/[name].[hash][extname]',
         chunkFileNames: 'assets/[name].[hash].js',
         entryFileNames: 'assets/[name].[hash].js',
-        manualChunks(id) {
-          if (id.includes('react-markdown')) {
-            return 'react-markdown';
-          }
-        },
       },
     },
   },
