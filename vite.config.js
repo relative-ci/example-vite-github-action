@@ -4,7 +4,7 @@ import webpackStatsPlugin from 'rollup-plugin-webpack-stats';
 import rollupStats from 'rollup-plugin-stats';
 import { bundleStats } from 'rollup-plugin-bundle-stats';
 
-export default defineConfig((env) => ({
+export default defineConfig(() => ({
   build: {
     rollupOptions: {
       output: {
